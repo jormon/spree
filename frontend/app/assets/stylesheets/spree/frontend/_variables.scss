@@ -7,7 +7,7 @@ $c_red:         #e45353 !default;  /* Error red      */
 $layout_background_color:   #FFFFFF !default;
 $title_text_color:          #404042 !default;
 $body_text_color:           #404042 !default;
-$link_text_color:           #00ADEE !default;
+$link_text_color:           #007B38 !default;
 
 $product_background_color:  #FFFFFF !default;
 $product_title_text_color:  #404042 !default;
@@ -27,14 +27,14 @@ $ff_base:       'Ubuntu', sans-serif !default;
 /*--------------------------------------
   | Font sizes
   |--------------------------------------
-  |- Navigation                         
+  |- Navigation
   |                                    */
       $header_navigation_font_size:           14px !default;
       $horizontal_navigation_font_size:       16px !default;
       $main_navigation_header_font_size:      14px !default;
       $main_navigation_font_size:             12px !default;
 /*|------------------------------------
-  |- Product Listing                         
+  |- Product Listing
   |                                  */
       $product_list_name_font_size:           12px !default;
       $product_list_price_font_size:          16px !default;
