@@ -22,7 +22,8 @@ module Spree
           return if promotion_credit_exists?(order)
 
           amount = compute_amount(order)
-          return if amount == 0
+          # allow promotions to be applied to empty carts
+          # return if amount == 0
           Spree::Adjustment.create!(
             amount: amount,
             order: order,
