@@ -11,7 +11,9 @@ module Spree
 
     def create_adjustment(order, adjustable, included = nil)
       amount = compute_amount(adjustable)
-      return if amount == 0
+      # allow us to create adjustments that currently don't adjust, but might
+      # in the future.
+      # return if amount == 0
       adjustments.new(order: order,
                       adjustable: adjustable,
                       label: label(amount),
